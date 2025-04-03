@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MelodyMetrics.API.Controllers
+namespace MelodyMetrics.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

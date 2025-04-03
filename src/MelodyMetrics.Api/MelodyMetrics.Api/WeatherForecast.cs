@@ -1,4 +1,4 @@
-namespace MelodyMetrics.API
+namespace MelodyMetrics.Api
 {
     public class WeatherForecast
     {

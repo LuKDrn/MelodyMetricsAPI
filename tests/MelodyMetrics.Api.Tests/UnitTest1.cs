@@ -1,4 +1,4 @@
-namespace MelodyMetrics.API.Tests
+namespace MelodyMetrics.Api.Tests
 {
     public class UnitTest1
     {

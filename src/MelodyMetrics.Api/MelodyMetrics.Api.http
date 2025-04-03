@@ -1,0 +1,6 @@
+@MelodyMetrics.Api_HostAddress = http://localhost:5196
+
+GET {{MelodyMetrics.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
