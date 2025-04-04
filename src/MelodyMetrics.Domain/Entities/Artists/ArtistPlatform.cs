@@ -16,7 +16,6 @@ namespace MelodyMetrics.Domain.Entities.Artists
         public required Artist Artist { get; set; }
         [BsonElement("Platform")]
         public required string Platform { get; set; }
-        public ICollection<User>? Users { get; set; }
         public ICollection<ArtistStatistic>? ArtistStatistics { get; set; }
         public ICollection<StreamingStatistic>? StreamingStatistics { get; set; }
     }

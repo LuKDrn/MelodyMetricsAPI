@@ -14,5 +14,4 @@ namespace MelodyMetrics.Api.Startup
                     webBuilder.UseStartup<Startup>();
                 });
     }
-
 }

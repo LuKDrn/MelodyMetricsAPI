@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Api", "src\MelodyMetrics.Api\MelodyMetrics.Api\MelodyMetrics.Api.csproj", "{4B58D90A-C7C0-4B35-9352-828E4FA7F414}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Application", "src\MelodyMetrics.Application\MelodyMetrics.Application.csproj", "{8E53C101-1F72-4940-B38D-1CB0916BF0AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DB54ADC-E153-418E-82A3-1ADDEDB973FD}"
@@ -15,13 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC921CC5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Api.Tests", "tests\MelodyMetrics.Api.Tests\MelodyMetrics.Api.Tests.csproj", "{C8F393A5-F9A7-4C13-8175-07B4447C7197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelodyMetrics.Domain", "src\MelodyMetrics.Domain\MelodyMetrics.Domain.csproj", "{361FAE42-8CBF-4380-AD07-208B68204A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Domain", "src\MelodyMetrics.Domain\MelodyMetrics.Domain.csproj", "{361FAE42-8CBF-4380-AD07-208B68204A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelodyMetrics.Application.Tests", "tests\MelodyMetrics.Application.Tests\MelodyMetrics.Application.Tests.csproj", "{3AA0F3D5-9128-4892-8185-E1E0F709ED9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Application.Tests", "tests\MelodyMetrics.Application.Tests\MelodyMetrics.Application.Tests.csproj", "{3AA0F3D5-9128-4892-8185-E1E0F709ED9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelodyMetrics.Domain.Tests", "tests\MelodyMetrics.Domain.Tests\MelodyMetrics.Domain.Tests.csproj", "{71C59C49-E2C3-4368-8EE8-00951CFD62B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Domain.Tests", "tests\MelodyMetrics.Domain.Tests\MelodyMetrics.Domain.Tests.csproj", "{71C59C49-E2C3-4368-8EE8-00951CFD62B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelodyMetrics.Infrastructure.Tests", "tests\MelodyMetrics.Infrastructure.Tests\MelodyMetrics.Infrastructure.Tests.csproj", "{6F686D9A-861D-4204-A7E0-2FE0075B505F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Infrastructure.Tests", "tests\MelodyMetrics.Infrastructure.Tests\MelodyMetrics.Infrastructure.Tests.csproj", "{6F686D9A-861D-4204-A7E0-2FE0075B505F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MelodyMetrics.Api", "src\MelodyMetrics.Api\MelodyMetrics.Api.csproj", "{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4B58D90A-C7C0-4B35-9352-828E4FA7F414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B58D90A-C7C0-4B35-9352-828E4FA7F414}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B58D90A-C7C0-4B35-9352-828E4FA7F414}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B58D90A-C7C0-4B35-9352-828E4FA7F414}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E53C101-1F72-4940-B38D-1CB0916BF0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E53C101-1F72-4940-B38D-1CB0916BF0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E53C101-1F72-4940-B38D-1CB0916BF0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,12 +57,15 @@ Global
 		{6F686D9A-861D-4204-A7E0-2FE0075B505F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F686D9A-861D-4204-A7E0-2FE0075B505F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F686D9A-861D-4204-A7E0-2FE0075B505F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4B58D90A-C7C0-4B35-9352-828E4FA7F414} = {3DB54ADC-E153-418E-82A3-1ADDEDB973FD}
 		{8E53C101-1F72-4940-B38D-1CB0916BF0AA} = {3DB54ADC-E153-418E-82A3-1ADDEDB973FD}
 		{61908C34-8CA6-4D53-84F3-A9BD427F6A36} = {3DB54ADC-E153-418E-82A3-1ADDEDB973FD}
 		{C8F393A5-F9A7-4C13-8175-07B4447C7197} = {DC921CC5-DBE7-46D2-A877-825FB6764366}
@@ -74,6 +73,7 @@ Global
 		{3AA0F3D5-9128-4892-8185-E1E0F709ED9A} = {DC921CC5-DBE7-46D2-A877-825FB6764366}
 		{71C59C49-E2C3-4368-8EE8-00951CFD62B1} = {DC921CC5-DBE7-46D2-A877-825FB6764366}
 		{6F686D9A-861D-4204-A7E0-2FE0075B505F} = {DC921CC5-DBE7-46D2-A877-825FB6764366}
+		{3AD7D17A-303E-4C35-A22F-DC27F5D2DDEA} = {3DB54ADC-E153-418E-82A3-1ADDEDB973FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C134B17-E0E0-4C02-A1A0-0F7772888692}
