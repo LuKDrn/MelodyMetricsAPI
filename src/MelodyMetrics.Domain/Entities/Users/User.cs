@@ -1,6 +1,4 @@
-﻿using MelodyMetrics.Domain.Entities.Artists;
-
-namespace MelodyMetrics.Domain.Entities.Users
+﻿namespace MelodyMetrics.Domain.Entities.Users
 {
     public class User
     {

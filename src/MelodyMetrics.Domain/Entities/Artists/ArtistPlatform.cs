@@ -1,8 +1,7 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MelodyMetrics.Domain.Entities.Steamings;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations.Schema;
-using MelodyMetrics.Domain.Entities.Steamings;
-using MelodyMetrics.Domain.Entities.Users;
 
 namespace MelodyMetrics.Domain.Entities.Artists
 {

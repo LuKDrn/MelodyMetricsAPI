@@ -1,9 +1,9 @@
-﻿using Microsoft.OpenApi.Models;
-using System.Text.Json.Serialization;
-using MelodyMetrics.Domain.Configurations;
+﻿using MelodyMetrics.Domain.Configurations;
 using MelodyMetrics.Infrastructure.Data.MongoDB;
 using MelodyMetrics.Infrastructure.Data.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
 
 
 namespace MelodyMetrics.Api.Startup
